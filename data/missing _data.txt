@@ -1,0 +1,3 @@
+Sensible data, usually from other research groups was omitted in the *data* folder, 
+which can make the task of reproducing the finding of the repository impracticable.
+Make contact with the repository manager to have more information on the access to such data.
