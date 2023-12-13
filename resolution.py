@@ -12,20 +12,10 @@ pc_name = socket.gethostname()
 if platform.system() == 'Windows':
     connection = sqlite3.connect('data/database_windows.db')
 else:
-    if pc_name == 'neutrino7':
-        data_path = 'data/database_neutrino7.db'
-    elif pc_name == 'drcpc65':
-        data_path = 'data/database_drcpc65.db'
-    elif pc_name == 'Marconis':
-        data_path = 'data/database_marconis.db'
-    elif 'compute' in pc_name or 'masternode' in pc_name:
-        data_path = 'data/database_compute.db'
+    data_path = 'data/database.db'
     connection = sqlite3.connect(data_path)
 cursor = connection.cursor()
 
-# data_path = 'data/database_neutrino7.db'
-# connection = sqlite3.connect(data_path)
-# cursor = connection.cursor()
 
 #resolution of SK detector
 def resolution_hk(Te_data, Enu):
