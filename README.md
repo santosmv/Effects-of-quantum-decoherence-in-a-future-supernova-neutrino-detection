@@ -1,6 +1,6 @@
 # Effects of quantum decoherence in a future supernova neutrino detection
 
-This repository is destinated to calculate propagation and detection of supernova (SN) neutrinos until Earth considering the impact of quantum decoherence (open quantum systems formalism).
+This repository is destinated to calculate propagation and detection of supernova (SN) neutrinos until Earth considering the impact of quantum decoherence (open quantum systems formalism), as described in the Physical Review D publication [Effects of quantum decoherence in a future supernova neutrino detection](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.103032).
 
 It was created a system that generates statistical chi-square profiles and contours just running the file *run_and_minimize_chi_square.py*.
 This system and its files are described as follows (in order of importation):
